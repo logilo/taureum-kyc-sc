@@ -1,0 +1,16 @@
+{
+    "name": "defi_smart_contract",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "flat:TaureumKYC": "truffle-flattener ./contracts/TaureumKYC.sol > publish/TaureumKYC.flat.sol",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "truffle-flattener": "^1.5.0"
+    }
+}
